@@ -1,4 +1,4 @@
-
+#include "QuickSort.h"
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
@@ -79,7 +79,10 @@ void swap (int* a, int* b)
 int partition(int arr[], int low, int high)
 {
 	/*
-	 * goal is to find the true position of the pivot
+	 * This is the Lomuto Partition method...
+	 * The other method is called the Hoarse method.
+	 *
+	 * The goal is to find the true position of the pivot
 	 *
 	 * 'i' remembers the last position that an element
 	 * was place in, that was less than the pivot
