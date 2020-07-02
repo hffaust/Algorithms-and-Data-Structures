@@ -4,7 +4,7 @@
 #\ Can be simply the sentences/lines a word appears in.
 #\ The index can handle queries with time complexity O(1)! 
 #\ Thanks to the inverted index, we are now able to query any number 
-# \  of documents (as long as they fit in memory) in constant time.
+#\  of documents (as long as they fit in memory) in constant time.
 #\ Building the inverted index structure is an expensive operation,
 #\  as it requires you to encode every possible query, but the 
 #\  benefits are great and may be worthwhile longterm.
